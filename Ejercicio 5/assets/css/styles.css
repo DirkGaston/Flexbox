@@ -1,0 +1,39 @@
+body{
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container img{
+    width: 21%;
+    margin: 10px;
+}
+
+.flex-container img:nth-child(5){
+    width: 88%;
+}
+
+.flex-container img:nth-child(6){
+    height: 300px;
+}
+
+.flex-container img:nth-child(7){
+    height: 500px;
+}
+
+.flex-container img:nth-child(8){
+    height: 300px;
+}
+
+.flex-container img:nth-child(9){
+    height: 500px;
+}
+
